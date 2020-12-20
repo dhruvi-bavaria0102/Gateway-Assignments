@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SourceControlFinalAssignment",
+    "\\SourceControlFinalAssignment\\Controllers",
+    "\\SourceControlFinalAssignment\\Models",
+    "\\SourceControlFinalAssignment\\Models\\Extended",
+    "\\SourceControlFinalAssignment\\Views",
+    "\\SourceControlFinalAssignment\\Views\\Shared",
+    "\\SourceControlFinalAssignment\\Views\\User"
+  ],
+  "SelectedNode": "\\SourceControlFinalAssignment\\Web.config",
+  "PreviewInSolutionExplorer": false
+}
