@@ -1,2 +1,0 @@
-D:\Placement\assignments\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.csprojAssemblyReference.cache
-D:\Placement\assignments\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.csproj.CoreCompileInputs.cache
