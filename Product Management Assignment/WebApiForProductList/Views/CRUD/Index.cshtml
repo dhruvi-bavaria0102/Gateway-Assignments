@@ -1,0 +1,97 @@
+﻿
+@model PagedList.IPagedList<WebApiForProductList.Models.ProductDetail>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Product List ";
+}
+
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+    <script src="~/Scripts/jquery-1.11.3.min.js">
+    </script>
+    <a class="btn btn-success" style="margin-bottom:10px" href="@Url.Action("Create","CRUD")"><i class="fa fa-plus"></i> Add New</a>
+    @using (Html.BeginForm("Index", "CRUD", FormMethod.Post))
+    {
+        <p>
+            Search Name: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+            <input type="submit" value="Find" />
+        </p>
+    }
+
+    @using (Html.BeginForm("Delete", "CRUD", FormMethod.Post))
+    {
+  <br />
+        <table class="table">
+            <tr>
+                <th>Select</th>
+                <th>
+                    Product_image
+                </th>
+                <th>
+                    @Html.ActionLink("CategoryName", "Index", "CRUD", new { Sorting_Order = ViewBag.SortingName }, null)
+                </th>
+                <th>
+                    @Html.ActionLink("ProductName", "Index", "CRUD", new { Sorting_Order = ViewBag.SortingName }, null)
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Quantity
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><input type="checkbox" name="ID" value="@item.ID" class="custom-checkbox chkCheckBoxId" /></td>
+                    <td>
+                        <img src="@Url.Content(item.Product_image)" width="50" height="50" class=" border border-dark img-rounded" />
+
+                    </td>
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    
+
+                    <td>
+                     
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                        @Html.ActionLink("Delete", "Deleteone", new { ID = item.ID })
+                    </td>
+                </tr>
+            }
+
+        </table>
+        <button type="submit" value="Delete" class="btn btn-sm btn-danger rounded-0" onclick="return validateData();"><i class="fa fa-trash-o"></i> Delete Multiple</button>
+    }
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @Html.PagedListPager(Model, Page_No => Url.Action("Index",
+        new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))
+    <div>
+        @Html.ActionLink("Back to Dashboard", "Index", "Home")
+    </div>
+    <script type="text/javascript">
+       $(".alert").alert()
+    </script>
