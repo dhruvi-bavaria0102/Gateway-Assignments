@@ -1,0 +1,242 @@
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csprojAssemblyReference.cache
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csproj.CoreCompileInputs.cache
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.dll.config
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.exe
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.exe.config
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.rsp
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csi.exe
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csi.rsp
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.AppContext.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Collections.Immutable.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.IO.FileSystem.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.exe
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.exe.config
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.rsp
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\VBCSCompiler.exe
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\roslyn\VBCSCompiler.exe.config
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Antlr3.Runtime.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.BAL.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.Models.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Newtonsoft.Json.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Net.Http.Formatting.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Helpers.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.WebHost.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Mvc.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Optimization.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Razor.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Razor.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Unity.Abstractions.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Unity.Container.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Unity.WebApi.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\WebGrease.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.BAL.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.Models.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Newtonsoft.Json.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Net.Http.Formatting.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Helpers.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.WebHost.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Mvc.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Optimization.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Razor.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Razor.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Unity.Abstractions.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Unity.Container.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Antlr3.Runtime.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csproj.CopyComplete
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.dll.config
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.SqlServer.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.SqlServer.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\AutoMapper.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.WebApi\bin\AutoMapper.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.dll.config
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.exe
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.exe.config
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.rsp
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csi.exe
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csi.rsp
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.AppContext.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Collections.Immutable.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.IO.FileSystem.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.exe
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.exe.config
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.rsp
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\VBCSCompiler.exe
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\VBCSCompiler.exe.config
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Antlr3.Runtime.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.BAL.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.Models.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Newtonsoft.Json.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Net.Http.Formatting.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Helpers.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.WebHost.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Mvc.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Optimization.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Razor.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Razor.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Abstractions.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Container.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.WebApi.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\WebGrease.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\AutoMapper.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.BAL.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.Models.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Newtonsoft.Json.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Net.Http.Formatting.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Helpers.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.WebHost.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Mvc.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Optimization.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Razor.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Razor.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Abstractions.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Container.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Antlr3.Runtime.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.dll.config
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\AutoMapper.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csprojAssemblyReference.cache
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csproj.CoreCompileInputs.cache
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csproj.CopyComplete
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.dll.config
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.WebApi.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.exe
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.exe.config
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csc.rsp
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csi.exe
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\csi.rsp
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.AppContext.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.exe
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.exe.config
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\vbc.rsp
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.BAL.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.Models.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Helpers.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Mvc.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Optimization.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Razor.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Abstractions.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Container.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.WebApi.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\WebGrease.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\AutoMapper.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.BAL.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.Models.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Helpers.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Mvc.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Optimization.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.Razor.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Abstractions.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Unity.Container.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\HMS.DAL.dll.config
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\EntityFramework.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\bin\AutoMapper.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csprojAssemblyReference.cache
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.csproj.CopyComplete
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.WebApi\obj\Debug\HMS.WebApi.pdb

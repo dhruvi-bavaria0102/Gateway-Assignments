@@ -1,0 +1,54 @@
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.pdb
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.dll
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.xml
+F:\GATEWAY\Gateway Assignments\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.pdb
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.xml
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.dll
+F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.pdb
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.xml
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.dll
+C:\Users\Dhruvi\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.pdb

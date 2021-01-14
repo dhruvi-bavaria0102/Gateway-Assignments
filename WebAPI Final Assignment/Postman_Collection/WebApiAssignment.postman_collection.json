@@ -1,0 +1,421 @@
+{
+	"info": {
+		"_postman_id": "00f4fc8e-ca27-4bc2-aefa-57ec88bd9f8e",
+		"name": "WebApiAssignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Hotels",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/hotel/AllHotels",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"hotel",
+						"AllHotels"
+					]
+				},
+				"description": "Get All Hotels sort in alphabetic"
+			},
+			"response": []
+		},
+		{
+			"name": "HotelById",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/hotel/findHotel/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"hotel",
+						"findHotel",
+						"2"
+					]
+				},
+				"description": "finding hotel using id"
+			},
+			"response": []
+		},
+		{
+			"name": "Change Status Delete",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"BookingId\": 5,\r\n        \"RoomId\": 5,\r\n        \"BookingDate\": \"2021-01-10T00:00:00\",\r\n        \"BookingsStatus\": \"Delete\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/booking/updateStatus",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"booking",
+						"updateStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Booking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/booking/allBooking",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"booking",
+						"allBooking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Updating Booking Status",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"BookingId\": 7,\r\n        \"RoomId\": 7,\r\n        \"BookingDate\": \"\",\r\n        \"BookingsStatus\": \"Available\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/booking/updateStatus",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"booking",
+						"updateStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Boodimg Date",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"BookingId\": 13,\r\n        \"RoomId\": 12,\r\n        \"BookingDate\": \"2021-02-17T00:00:00\",\r\n        \"BookingsStatus\": \"Definitive\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/booking/updateBooking",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"booking",
+						"updateBooking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Rooms",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/room/allroom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"room",
+						"allroom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RoomAvailabilty",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/room/checkRoom/2/2021-01-11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"room",
+						"checkRoom",
+						"2",
+						"2021-01-11"
+					]
+				},
+				"description": "Checking room availabilty on some particular date\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "BookARoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"BookingId\": 17,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-02-20T00:00:00\",\r\n        \"BookingsStatus\": \"Definitive\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/room/bookRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"room",
+						"bookRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RoomCreatedInHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "webapi0102",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dhruvi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {   \r\n        \"HotelId\": 3,\r\n        \"RoomName\": \"C101\",\r\n        \"RoomCategory\": \"Category2\",\r\n        \"RoomPrice\": 25000.00,\r\n        \"IsActive\": 1,\r\n        \"CreatedDate\": null,\r\n        \"CreatedBy\": null,\r\n        \"UpdatedDate\": null,\r\n        \"UpdatedBy\": null\r\n    }\r\n    \r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/room/createRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"room",
+						"createRoom"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
