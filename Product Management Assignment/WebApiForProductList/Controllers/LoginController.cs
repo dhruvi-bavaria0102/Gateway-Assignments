@@ -21,12 +21,13 @@ namespace WebApiForProductList.Controllers
         {
             throw new NotImplementedException();
         }
-
+        // login for admin
         [HttpPost]
         public ActionResult Index(login s)
         {
             if(ModelState.IsValid == true)
             {
+                //checking if login details matches the sql table details to authorize login
                 var credentials = db.logins.Where(model => model.Username == s.Username && model.Password == s.Password).FirstOrDefault();
                 if (credentials == null)
                 {
@@ -41,11 +42,13 @@ namespace WebApiForProductList.Controllers
             }
             return View();
         }
+        //logging out of the application
         public ActionResult Logout()
         {
             Session.Abandon();
             return RedirectToAction("Index","Login");
         }
+        //to reset the details entered in login page if they are entered incorrectly
         public ActionResult Reset()
         {
             ModelState.Clear();

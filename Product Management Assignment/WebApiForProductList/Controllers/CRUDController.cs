@@ -78,7 +78,7 @@ namespace WebApiForProductList.Controllers
             return View(prod.ToPagedList(No_Of_Page, Size_Of_Page));
         }
 
-
+        //Create Page to create a new entry
         public ActionResult Create()
         {
             return View();
@@ -123,7 +123,7 @@ namespace WebApiForProductList.Controllers
             return View("Create");
 
         }
-
+        // Show details of items
         public ActionResult Details(int id)
         {
             Product proobj = null;
@@ -144,7 +144,7 @@ namespace WebApiForProductList.Controllers
             return View(proobj);
 
         }
-
+        // to edit the entered details
         public ActionResult Edit(int id)
         {
             Product proobj = null;
@@ -184,7 +184,7 @@ namespace WebApiForProductList.Controllers
             }
             return View(pd);
         }
-
+        // delete the items form table
         [HttpPost]
         public ActionResult Delete(IEnumerable<int> ID)
         {

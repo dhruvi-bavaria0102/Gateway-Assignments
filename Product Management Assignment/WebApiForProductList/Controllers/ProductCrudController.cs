@@ -9,12 +9,14 @@ namespace WebApiForProductList.Controllers
 {
     public class ProductCrudController : ApiController
     {
+        //fetching data
         ProductManagementEntities p = new ProductManagementEntities();
         public IHttpActionResult getproduct()
         {
             var results = p.ProductDetails.ToList();
             return Ok(results);
         }
+        //saving data to database
         [HttpPost]
         public IHttpActionResult proinsert(ProductDetail proinsert)
         {
@@ -22,7 +24,7 @@ namespace WebApiForProductList.Controllers
             p.SaveChanges();
             return Ok();
         }
-
+        //Get product information
         public IHttpActionResult GetProductID(int id)
         {
             Product productdetails = null;
@@ -42,6 +44,7 @@ namespace WebApiForProductList.Controllers
             }
             return Ok(productdetails);
         }
+        // Inserting product information
         public IHttpActionResult Put(Product pd)
         {
             var updateProduct = p.ProductDetails.Where(x => x.ID == pd.ID).FirstOrDefault<ProductDetail>();
