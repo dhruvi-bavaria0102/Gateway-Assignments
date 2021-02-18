@@ -8,56 +8,56 @@ using SBS.Data;
 
 namespace SBS.Admin.Controllers
 {
-    public class AdminController : Controller
+    public class VehicleController : Controller
     {
-        // GET: Admin
+        // GET: Vehicle
         public ActionResult Index()
         {
             return View();
         }
-        public JsonResult GetCustomer(string sidx, string sort, int page, int rows)
+        public JsonResult GetVehicle(string sidx, string sort, int page, int rows)
         {
             ServiceBookingSystemEntities db = new ServiceBookingSystemEntities();
             sort = (sort == null) ? "" : sort;
             int pageIndex = Convert.ToInt32(page) - 1;
             int pageSize = rows;
 
-            var CustomerList = db.Customers.Select(
+            var VehicleList = db.Vehicles.Select(
                     t => new
                     {
                         t.ID,
-                        t.Name,
-                        t.Address,
-                        t.Contact,
-                        t.Zipcode,
-                        t.HomeContact,
-                        t.EmailID,
-                        t.Password,
-                        t.Problem,
-                    }) ;
-            int totalRecords = CustomerList.Count();
+                        t.LicensePlate,
+                        t.Make,
+                        t.Model,
+                        t.RegistrationDate,
+                        t.ChassisNumber,
+                        t.OwnerName,
+                        t.CustomerID,
+                        
+                    });
+            int totalRecords = VehicleList.Count();
             var totalPages = (int)Math.Ceiling((float)totalRecords / (float)rows);
             if (sort.ToUpper() == "DESC")
             {
-                CustomerList = CustomerList.OrderByDescending(t => t.Name);
-                CustomerList = CustomerList.Skip(pageIndex * pageSize).Take(pageSize);
+                VehicleList = VehicleList.OrderByDescending(t => t.RegistrationDate);
+                VehicleList = VehicleList.Skip(pageIndex * pageSize).Take(pageSize);
             }
             else
             {
-                CustomerList = CustomerList.OrderBy(t => t.Name);
-                CustomerList = CustomerList.Skip(pageIndex * pageSize).Take(pageSize);
+                VehicleList = VehicleList.OrderBy(t => t.RegistrationDate);
+                VehicleList = VehicleList.Skip(pageIndex * pageSize).Take(pageSize);
             }
             var jsonData = new
             {
                 total = totalPages,
                 page,
                 records = totalRecords,
-                rows = CustomerList
+                rows = VehicleList
             };
             return Json(jsonData, JsonRequestBehavior.AllowGet);
         }
         [HttpPost]
-        public string Create([Bind(Exclude = "Id")] Customer Model)
+        public string Create([Bind(Exclude = "Id")] Vehicle Model)
         {
             ServiceBookingSystemEntities db = new ServiceBookingSystemEntities();
             string msg;
@@ -65,8 +65,8 @@ namespace SBS.Admin.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    Model.Name = Guid.NewGuid().ToString();
-                    db.Customers.Add(Model);
+                    Model.LicensePlate = Guid.NewGuid().ToString();
+                    db.Vehicles.Add(Model);
                     db.SaveChanges();
                     msg = "Saved Successfully";
                 }
@@ -82,7 +82,7 @@ namespace SBS.Admin.Controllers
             return msg;
         }
 
-        public string Edit(Customer Model)
+        public string Edit(Vehicle Model)
         {
             ServiceBookingSystemEntities db = new ServiceBookingSystemEntities();
             string msg;
@@ -108,8 +108,8 @@ namespace SBS.Admin.Controllers
         public string Delete(string Id)
         {
             ServiceBookingSystemEntities db = new ServiceBookingSystemEntities();
-            Customer customer = db.Customers.Find(Id);
-            db.Customers.Remove(customer);
+            Vehicle vehicle = db.Vehicles.Find(Id);
+            db.Vehicles.Remove(vehicle);
             db.SaveChanges();
             return "Deleted successfully";
         }
