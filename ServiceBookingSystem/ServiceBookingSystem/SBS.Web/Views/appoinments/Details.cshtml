@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>appoinment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Customercontact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customercontact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mechanic.MechanicName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mechanic.MechanicName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Service1.ServiceName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Service1.ServiceName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle.Chassis_No)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle.Chassis_No)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

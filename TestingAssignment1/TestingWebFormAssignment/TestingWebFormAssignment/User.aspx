@@ -1,13 +1,29 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="User.aspx.cs" Inherits="AutoGenerateNumberForm" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="User.aspx.cs" Inherits="UserForm" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <script runat="server">
-
     protected void btn_autogeneratenumber_Click(object sender, EventArgs e)
     {
-
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["UserEntities"].ToString());        
+        con.Open();
+        SqlCommand cmd = new SqlCommand("proc_InsertAutoGenNumber", con);        
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.Add("@recordid", SqlDbType.VarChar).Value = lblrecordid.Text;
+        cmd.Parameters.Add("@recordname", SqlDbType.VarChar).Value = txtrecordname.Text;
+        int i = cmd.ExecuteNonQuery();
+        if (i > 0)
+        {
+            lblerror.Text = "Record Inserted Successfully...";
+        }
+        else
+        {
+            lblerror.Text = "Error in Record Inserting...";
+        }
+        con.Close();
     }
 </script>
+
+
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -65,16 +81,15 @@
     <form id="form1" runat="server">
     <div>
      <table id="table1">
-      <tr>
-       <th colspan="3">Creating Auto Generate Number Through SQL SERVER</th>
-      </tr>
+      
+      
       <tr>
        <td id="td1">Passenger Number : </td>
-       <td colspan="2"><asp:Label ID="lblrecordid" runat="server"></asp:Label></td>
+       <td colspan="2"><asp:Label ID="lblpassengerNumber" runat="server"></asp:Label></td>
       </tr>
       <tr>
        <td id="td2">First Name :</td>
-       <td colspan="2"><asp:TextBox ID="txtrecordname" runat="server"></asp:TextBox></td>
+       <td colspan="2"><asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox></td>
       </tr> 
       <tr>
       <td colspan="3"><asp:Button ID="btn_autogeneratenumber" Text="Create Record" 
@@ -83,7 +98,7 @@
       </tr> 
      </table>
     </div>
-    <asp:Label ID="lblerror" runat="server"></asp:Label>
+ 
     <br />
     <br />
     <br />

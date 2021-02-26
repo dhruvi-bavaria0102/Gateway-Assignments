@@ -25,14 +25,14 @@ namespace TestingWebFormAssignment
         }
             private void generateautonumber()
             {
-                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbCon"].ToString());
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["UsersEntities"].ToString());
                 con.Open();
                 SqlCommand cmd = new SqlCommand("proc_AutoGenNumber", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 string value = cmd.ExecuteScalar().ToString();
                 i++;
                 int rv = Int32.Parse(value) + 1;
-                lblrecordid.Text = rv.ToString();
+                lblpassengerNumber.Text = rv.ToString();
 
             }
             protected void btn_autogeneratenumber_Click(object sender, EventArgs e)
@@ -42,7 +42,7 @@ namespace TestingWebFormAssignment
                 SqlCommand cmd = new SqlCommand("proc_InsertAutoGenNumber", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@passengerNumber", SqlDbType.VarChar).Value = lblpassengerNumber.Text;
-                cmd.Parameters.Add("@FirstName", SqlDbType.VarChar).Value = txtFirstname.Text;
+                cmd.Parameters.Add("@FirstName", SqlDbType.VarChar).Value = txtFirstName.Text;
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
                 {
