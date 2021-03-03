@@ -102,7 +102,7 @@ namespace CustomerWebapp1.Controllers
             }
             ViewBag.CustomerId = new SelectList(db.Customers, "Id", "Name", appoinment.CustomerId);
             ViewBag.MechanicId = new SelectList(db.Mechanics, "Id", "MechanicName", appoinment.MechanicId);
-            ViewBag.ServiceId = new SelectList(db.Service1, "Id", "ServiceName", appoinment.ServiceId);
+            ViewBag.ServiceId = new SelectList(db.Services, "Id", "ServiceName", appoinment.ServiceId);
             ViewBag.VehicleId = new SelectList(db.Vehicles, "License_Plate", "Chassis_No", appoinment.VehicleId);
             return View(appoinment);
         }
@@ -114,7 +114,7 @@ namespace CustomerWebapp1.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            appoinment appoinment = db.appoinments.Find(id);
+            appoinment appoinment = db.Appoinments.Find(id);
             if (appoinment == null)
             {
                 return HttpNotFound();
