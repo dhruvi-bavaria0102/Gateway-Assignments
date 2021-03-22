@@ -17,10 +17,10 @@ namespace HMS.DAL.Repository.Classes
             Cancelled,
             Deleted
         }
-        private readonly Database.WebApiEntities1 _dbContext;
+        private readonly Database.HMSEntities _dbContext;
         public BookingRepository()
         {
-            _dbContext = new Database.WebApiEntities1();
+            _dbContext = new Database.HMSEntities();
         }
 
         public string deleteBooking(Booking model)

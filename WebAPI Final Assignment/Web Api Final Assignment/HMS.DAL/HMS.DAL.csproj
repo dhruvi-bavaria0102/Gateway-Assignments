@@ -57,28 +57,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\Booking_Detail.cs">
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HMS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\DataBaseContext.Context.cs">
+    <Compile Include="Database\HMS.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataBaseContext.Context.tt</DependentUpon>
+      <DependentUpon>HMS.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\DataBaseContext.cs">
+    <Compile Include="Database\HMS.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HMS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\DataBaseContext.Designer.cs">
+    <Compile Include="Database\HMS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
+      <DependentUpon>HMS.edmx</DependentUpon>
     </Compile>
     <Compile Include="Database\Hotel_Details.cs">
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HMS.tt</DependentUpon>
     </Compile>
     <Compile Include="Database\Room_Details.cs">
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HMS.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Classes\BookingRepository.cs" />
@@ -96,12 +96,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="Database\DataBaseContext.edmx">
+    <EntityDeploy Include="Database\HMS.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DataBaseContext.Designer.cs</LastGenOutput>
+      <LastGenOutput>HMS.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Database\DataBaseContext.edmx.diagram">
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
+    <None Include="Database\HMS.edmx.diagram">
+      <DependentUpon>HMS.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -109,15 +109,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\DataBaseContext.Context.tt">
+    <Content Include="Database\HMS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
-      <LastGenOutput>DataBaseContext.Context.cs</LastGenOutput>
+      <DependentUpon>HMS.edmx</DependentUpon>
+      <LastGenOutput>HMS.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Database\DataBaseContext.tt">
+    <Content Include="Database\HMS.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
-      <LastGenOutput>DataBaseContext.cs</LastGenOutput>
+      <DependentUpon>HMS.edmx</DependentUpon>
+      <LastGenOutput>HMS.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

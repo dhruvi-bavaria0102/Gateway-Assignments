@@ -51,53 +51,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Model.Context.cs">
+    <Compile Include="Model\PassengerUnitTest.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Model.Context.tt</DependentUpon>
+      <DependentUpon>PassengerUnitTest.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\Model.cs">
+    <Compile Include="Model\PassengerUnitTest.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Model.tt</DependentUpon>
+      <DependentUpon>PassengerUnitTest.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\Model.Designer.cs">
+    <Compile Include="Model\PassengerUnitTest.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Model.edmx</DependentUpon>
+      <DependentUpon>PassengerUnitTest.edmx</DependentUpon>
     </Compile>
     <Compile Include="Model\tbl_Passenger.cs">
-      <DependentUpon>Model.tt</DependentUpon>
+      <DependentUpon>PassengerUnitTest.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Interface\IPassangerRepository.cs" />
     <Compile Include="Repository\PassengerRepository.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EntityDeploy Include="Model\Model.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model.Designer.cs</LastGenOutput>
-    </EntityDeploy>
+    <Content Include="Model\PassengerUnitTest.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PassengerUnitTest.edmx</DependentUpon>
+      <LastGenOutput>PassengerUnitTest.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\PassengerUnitTest.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PassengerUnitTest.edmx</DependentUpon>
+      <LastGenOutput>PassengerUnitTest.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Model\Model.edmx.diagram">
-      <DependentUpon>Model.edmx</DependentUpon>
+    <EntityDeploy Include="Model\PassengerUnitTest.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PassengerUnitTest.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\PassengerUnitTest.edmx.diagram">
+      <DependentUpon>PassengerUnitTest.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Model\Model.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model.Context.cs</LastGenOutput>
-      <DependentUpon>Model.edmx</DependentUpon>
-    </Content>
-    <Content Include="Model\Model.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model.edmx</DependentUpon>
-      <LastGenOutput>Model.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

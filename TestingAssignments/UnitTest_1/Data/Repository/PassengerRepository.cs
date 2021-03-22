@@ -12,10 +12,10 @@ namespace Data.Repository
 {
     public class PassengerRepository : IPassangerRepository
     {
-        private readonly SampleEntities db;
+        private readonly PassengerUnitTestEntities db;
         public PassengerRepository()
         {
-            db = new SampleEntities();
+            db = new PassengerUnitTestEntities();
         }
         public List<PassengerView> GetAllPassengers()
         {
@@ -35,7 +35,7 @@ namespace Data.Repository
             }
             return list;
         }
-        public string CreateNewPassneger(PassengerView model)
+        public string CreateNewPassenger(PassengerView model)
         {
             try
             {
@@ -58,7 +58,7 @@ namespace Data.Repository
             }
         }
 
-        public bool DeletePassneger(int? Id)
+        public bool DeletePassenger(int? Id)
         {
             var entity = db.tbl_Passenger.Find(Id);
             if (entity != null)
@@ -70,7 +70,7 @@ namespace Data.Repository
             return false;
 
         }
-        public string UpdatePassneger(int id, PassengerView model)
+        public string UpdatePassenger(int id, PassengerView model)
         {
             try
             {
@@ -93,7 +93,7 @@ namespace Data.Repository
             }
         }
 
-        public PassengerView GetPassneger(int? Id)
+        public PassengerView GetPassenger(int? Id)
         {
             try
             {

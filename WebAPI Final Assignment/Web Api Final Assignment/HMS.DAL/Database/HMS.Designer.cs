@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\Placement\.Net Assignment\.Net Assignment\DealerManagement.DAL\DealerManagement.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.DAL\Database\HMS.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

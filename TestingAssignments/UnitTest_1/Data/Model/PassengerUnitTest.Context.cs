@@ -13,10 +13,10 @@ namespace Data.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SampleEntities : DbContext
+    public partial class PassengerUnitTestEntities : DbContext
     {
-        public SampleEntities()
-            : base("name=SampleEntities")
+        public PassengerUnitTestEntities()
+            : base("name=PassengerUnitTestEntities")
         {
         }
     

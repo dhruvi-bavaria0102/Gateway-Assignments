@@ -13,10 +13,10 @@ namespace HMS.DAL.Database
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WebApiEntities1 : DbContext
+    public partial class HMSEntities : DbContext
     {
-        public WebApiEntities1()
-            : base("name=WebApiEntities1")
+        public HMSEntities()
+            : base("name=HMSEntities")
         {
         }
     

@@ -9,10 +9,10 @@ namespace BusinessLogic.Interface
 {
     public interface IPassengerManager
     {
-        string CreateNewPassneger(PassengerView model);
+        string CreateNewPassenger(PassengerView model);
         List<PassengerView> GetAllPassengers();
-        PassengerView GetPassneger(int? Id);
-        string UpdatePassneger(int id, PassengerView model);
-        bool DeletePassneger(int? Id);
+        PassengerView GetPassenger(int? Id);
+        string UpdatePassenger(int id, PassengerView model);
+        bool DeletePassenger(int? Id);
     }
 }

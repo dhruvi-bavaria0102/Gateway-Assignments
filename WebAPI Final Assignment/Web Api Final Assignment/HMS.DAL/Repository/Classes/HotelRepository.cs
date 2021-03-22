@@ -11,10 +11,10 @@ namespace HMS.DAL.Repository.Classes
 {
     public class HotelRepository : IHotelRepository
     {
-        private readonly Database.WebApiEntities1 _dbContext;
+        private readonly Database.HMSEntities _dbContext;
         public HotelRepository()
         {
-            _dbContext = new Database.WebApiEntities1();
+            _dbContext = new Database.HMSEntities();
         }
         public string createHotel(Hotel entity)
         {

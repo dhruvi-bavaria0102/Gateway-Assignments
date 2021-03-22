@@ -24,25 +24,25 @@ namespace UnitTest_1.Controllers
         // GET: api/Passengers/5
         public PassengerView GetPassenger(int id)
         {
-            return _passengerManager.GetPassneger(id); ;
+            return _passengerManager.GetPassenger(id); ;
         }
 
         // PUT: api/Passengers/5
         public string PutPassenger(int id, PassengerView passenger)
         {
-            return _passengerManager.UpdatePassneger(id, passenger);
+            return _passengerManager.UpdatePassenger(id, passenger);
         }
 
         // POST: api/Passengers
         public string PostPassenger(PassengerView passenger)
         {
-            return _passengerManager.CreateNewPassneger(passenger);
+            return _passengerManager.CreateNewPassenger(passenger);
         }
 
         // DELETE: api/Passengers/5
         public bool DeletePassenger(int id)
         {
-            return _passengerManager.DeletePassneger(id);
+            return _passengerManager.DeletePassenger(id);
         }
     }
 }

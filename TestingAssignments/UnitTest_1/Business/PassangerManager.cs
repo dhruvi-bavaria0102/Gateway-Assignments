@@ -17,14 +17,14 @@ namespace BusinessLogic
         {
             _PassengerRepository = PassengerRepository;
         }
-        public string CreateNewPassneger(PassengerView model)
+        public string CreateNewPassenger(PassengerView model)
         {
-            return _PassengerRepository.CreateNewPassneger(model);
+            return _PassengerRepository.CreateNewPassenger(model);
         }
 
-        public bool DeletePassneger(int? Id)
+        public bool DeletePassenger(int? Id)
         {
-            return _PassengerRepository.DeletePassneger(Id);
+            return _PassengerRepository.DeletePassenger(Id);
         }
 
         public List<PassengerView> GetAllPassengers()
@@ -32,14 +32,14 @@ namespace BusinessLogic
             return _PassengerRepository.GetAllPassengers();
         }
 
-        public PassengerView GetPassneger(int? Id)
+        public PassengerView GetPassenger(int? Id)
         {
-            return _PassengerRepository.GetPassneger(Id);
+            return _PassengerRepository.GetPassenger(Id);
         }
 
-        public string UpdatePassneger(int id, PassengerView model)
+        public string UpdatePassenger(int id, PassengerView model)
         {
-            return _PassengerRepository.UpdatePassneger(id,model);
+            return _PassengerRepository.UpdatePassenger(id,model);
         }
     }
 }

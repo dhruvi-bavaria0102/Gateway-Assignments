@@ -10,3 +10,9 @@ F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb
+D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.dll
+D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.pdb
+D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
+D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb
