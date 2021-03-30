@@ -16,3 +16,9 @@ D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Mode
 D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
 D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
 D:\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb
+D:\Placement\assignments\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.dll
+D:\Placement\assignments\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.pdb
+D:\Placement\assignments\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+D:\Placement\assignments\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+D:\Placement\assignments\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
+D:\Placement\assignments\Gateway-Assignments\WebAPI Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb

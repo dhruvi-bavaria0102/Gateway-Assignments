@@ -28,5 +28,6 @@ namespace HMS.DAL.Database
         public virtual DbSet<Booking_Detail> Booking_Detail { get; set; }
         public virtual DbSet<Hotel_Details> Hotel_Details { get; set; }
         public virtual DbSet<Room_Details> Room_Details { get; set; }
+        public virtual DbSet<user_detail> user_detail { get; set; }
     }
 }

@@ -27,13 +27,6 @@ namespace HMS.WebApi.Controllers
         }
 
         [HttpGet]
-        [Route("api/hotel/name")]
-        public string names(string name)
-        {
-            return name;
-        }
-
-        [HttpGet]
         [Route("api/hotel/findHotel/{id}")]
         public IHttpActionResult Hotel(int id)
         {

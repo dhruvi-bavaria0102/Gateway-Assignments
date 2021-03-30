@@ -30,7 +30,7 @@ namespace HMS.DAL.Repository.Classes
             {
                 if (model != null)
                 {
-                    var bookingRecord = _dbContext.Booking_Detail.Where(m => m.RoomId == model.RoomId && DbFunctions.TruncateTime(m.BookingDate) == model.BookingDate).FirstOrDefault();
+                    var bookingRecord = _dbContext.Booking_Detail.Where(m => m.RoomId == model.RoomId && DbFunctions.TruncateTime(m.BookingDate) == model.BookingDate).FirstOrDefault(); //TruncateTime remove time from datetime
                     if (bookingRecord == null)
                     {
                         Database.Booking_Detail booking = new Database.Booking_Detail();

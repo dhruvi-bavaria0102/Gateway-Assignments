@@ -1,0 +1,37 @@
+{
+    "Company_modules": {
+      "Company_module": [
+        {
+          "id": "1",
+          "email": "swetamandani2000@gmail.com",
+          "name": "sweta",
+          "totalEmployee": "4",
+          "address":"sarkhej",
+          "isCompanyActive":"true",
+          "totalBranch":"4",
+          "companyBranch":[{
+              "barnchId":"1",
+              "branchName":"Gateway",
+              "address":"sarkhej"
+          }]
+
+        },
+        {
+            "id": "2",
+            "email": "Dhruvi2@gmail.com",
+            "name": "Dhruvi",
+            "totalEmployee": "6",
+            "address":"Sola",
+            "isCompanyActive":"true",
+            "totalBranch":"6",
+            "companyBranch":[{
+                "barnchId":"2",
+                "branchName":"Gateway2",
+                "address":"sarkhej"
+            }]
+  
+        }
+        
+      ]
+    }
+  }

@@ -7,7 +7,7 @@ namespace UnitTest
     public class UnitTest1
     {
         [Fact]
-        public void ConvertToUpper1()
+        public void ConvertToUpper_with_lowercaseinput()
         {
             string a = "input";
             string result = a.ConvertToUpper();

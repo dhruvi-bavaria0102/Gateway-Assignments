@@ -48,6 +48,15 @@
           <Property Name="UpdatedDate" Type="date" />
           <Property Name="UpdatedBy" Type="varchar" MaxLength="50" />
         </EntityType>
+        <EntityType Name="user_detail">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Username" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LoginName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
         <Association Name="FK_Booking_Detail_Room_Details">
           <End Role="Room_Details" Type="Self.Room_Details" Multiplicity="1" />
           <End Role="Booking_Detail" Type="Self.Booking_Detail" Multiplicity="*" />
@@ -76,6 +85,7 @@
           <EntitySet Name="Booking_Detail" EntityType="Self.Booking_Detail" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Hotel_Details" EntityType="Self.Hotel_Details" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Room_Details" EntityType="Self.Room_Details" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user_detail" EntityType="Self.user_detail" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_Booking_Detail_Room_Details" Association="Self.FK_Booking_Detail_Room_Details">
             <End Role="Room_Details" EntitySet="Room_Details" />
             <End Role="Booking_Detail" EntitySet="Booking_Detail" />
@@ -137,6 +147,15 @@
           <NavigationProperty Name="Booking_Detail" Relationship="Self.FK_Booking_Detail_Room_Details" FromRole="Room_Details" ToRole="Booking_Detail" />
           <NavigationProperty Name="Hotel_Details" Relationship="Self.FK_Room_Details_Hotel_Details" FromRole="Room_Details" ToRole="Hotel_Details" />
         </EntityType>
+        <EntityType Name="user_detail">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LoginName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
         <Association Name="FK_Booking_Detail_Room_Details">
           <End Role="Room_Details" Type="Self.Room_Details" Multiplicity="1" />
           <End Role="Booking_Detail" Type="Self.Booking_Detail" Multiplicity="*" />
@@ -165,6 +184,7 @@
           <EntitySet Name="Booking_Detail" EntityType="Self.Booking_Detail" />
           <EntitySet Name="Hotel_Details" EntityType="Self.Hotel_Details" />
           <EntitySet Name="Room_Details" EntityType="Self.Room_Details" />
+          <EntitySet Name="user_detail" EntityType="Self.user_detail" />
           <AssociationSet Name="FK_Booking_Detail_Room_Details" Association="Self.FK_Booking_Detail_Room_Details">
             <End Role="Room_Details" EntitySet="Room_Details" />
             <End Role="Booking_Detail" EntitySet="Booking_Detail" />
@@ -223,6 +243,16 @@
                 <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
                 <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
                 <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user_detail">
+            <EntityTypeMapping TypeName="HMSModel.user_detail">
+              <MappingFragment StoreEntitySet="user_detail">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
