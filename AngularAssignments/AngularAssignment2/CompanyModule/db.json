@@ -1,0 +1,51 @@
+{
+  "Users": [
+    {
+      "id": "03",
+      "name": "sweta mandani",
+      "email": "swetamandani2000@gmail.om",
+      "totalEmployee": "4",
+      "address": "301",
+      "isCompanyActive": "true",
+      "totalBranch": "4",
+      "companyBranch": [
+        {
+          "branchId": "02",
+          "branchName": "MS Office",
+          "address": "302, Gandhinagar"
+        }
+      ]
+    },
+    {
+      "name": "sweta mandani",
+      "email": "swetamandani2000@gmail.om",
+      "totalEmployee": "4",
+      "address": "301",
+      "isCompanyActive": "true",
+      "totalBranch": "2",
+      "id": "0PJ0BrO"
+    },
+    {
+      "name": "sweta mandani",
+      "email": "swetamandani2000@gmail.om",
+      "address": "301",
+      "isCompanyActive": "true",
+      "totalEmployee": "4",
+      "totalBranch": "2",
+      "branchId": "45",
+      "branchName": "gateway",
+      "id": "m1II0xV"
+    },
+    {
+      "name": "sweta mandani",
+      "email": "swetamandani2000@gmail.om",
+      "address": "301",
+      "isCompanyActive": "true",
+      "totalEmployee": "4",
+      "totalBranch": "2",
+      "branchId": "45",
+      "branchName": "gateway",
+      "id": "ETRjLbX"
+    }
+  ]
+}
