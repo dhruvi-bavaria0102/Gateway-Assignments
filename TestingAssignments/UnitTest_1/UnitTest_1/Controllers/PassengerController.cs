@@ -7,7 +7,6 @@ namespace UnitTest_1.Controllers
 {
     public class PassengerController : ApiController
     {
-        // GET: Passenger
         private readonly IPassengerManager _passengerManager;
 
         public PassengerController(IPassengerManager passengerManager)
@@ -15,31 +14,60 @@ namespace UnitTest_1.Controllers
             _passengerManager = passengerManager;
         }
 
-        // GET: api/Passengers
+        /// <summary>
+        /// Get all customer list from database.
+        /// </summary>
+        /// <returns>List of Passengers</returns>
+        [Route("api/Passengers")]
+        [HttpGet]
         public List<PassengerView> GetPassengers()
         {
             return _passengerManager.GetAllPassengers();
         }
 
-        // GET: api/Passengers/5
+        /// <summary>
+        /// Get customer with the desired id
+        /// </summary>
+        /// <returns>Passengers with id</returns>
+        [Route("api/Passengers/{id}")]
+        [HttpGet]
         public PassengerView GetPassenger(int id)
         {
             return _passengerManager.GetPassenger(id); ;
         }
 
-        // PUT: api/Passengers/5
+        /// <summary>
+        /// Update customer data by its id.
+        /// </summary>
+        /// <param name="passenger">Contain all updated data of customer</param>
+        /// <param name="id">Contain custoemr id.</param>
+        /// <returns>Return true if data updated into database otherwise return false.</returns>
+        [Route("api/Passengers/{id}")]
+        [HttpPut]
         public string PutPassenger(int id, PassengerView passenger)
         {
             return _passengerManager.UpdatePassenger(id, passenger);
         }
 
-        // POST: api/Passengers
+        /// <summary>
+        /// Add new customer into database
+        /// </summary>
+        /// <param name="passenger">Contain new customer data.</param>
+        /// <returns></returns>
+        [Route("api/Passengers")]
+        [HttpPost]
         public string PostPassenger(PassengerView passenger)
         {
             return _passengerManager.CreateNewPassenger(passenger);
         }
 
-        // DELETE: api/Passengers/5
+        /// <summary>
+        /// Delete customer by its id.
+        /// </summary>
+        /// <param name="id">Contain customer id.</param>
+        /// <returns>Return true if custoemr data is deleted otherwose return false.</returns>
+        [Route("api/Passengers/{id}")]
+        [HttpDelete]
         public bool DeletePassenger(int id)
         {
             return _passengerManager.DeletePassenger(id);
