@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   click() {
     setTimeout(() => {
       this.text += '1';
-    }, 1000);
+    }, 2000);
   }
 }
 

@@ -6,28 +6,24 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
-export class SignupComponent {
+export class RegisterComponent {
 
-  public userSignupCount = 0;
+  public userRegisterCount = 0;
   public isMaxUsers = false;
 
   public constructor(private _http: HttpClient) { }
 
-  public addNewUser(): Promise<any> {
+  public NewUser(): Promise<any> {
       return new Promise(resolve => {
           resolve(1);
       }).then((res:any) => {
 
-          if (this.userSignupCount < 5) {
-              this.userSignupCount += res;
+          if (this.userRegisterCount < 5) {
+              this.userRegisterCount += res;
           } else {
               this.isMaxUsers = true;
           }
 
       });
-  }
-
-  public checkStatus(): Promise<any> {
-      return this._http.get<any>('https://httpstat.us/200').toPromise();
   }
 }

@@ -38,14 +38,14 @@ describe('AppComponent', () => {
 
   describe('fakeasync',()=>{
     
-    it('should use whenStable with browser click', fakeAsync(() => {
+    it('whenStable should be used with browser click', fakeAsync(() => {
       fixture.detectChanges(); 
   
       const button = nativeElement.querySelector('div');
       button.click(); 
       expect(fixture.isStable()).toBe(false);
   
-      tick(2000); 
+      tick(3000); 
       fixture.whenStable().then(() => {
         expect(fixture.isStable()).toBe(true);
         fixture.detectChanges(); 
@@ -53,16 +53,16 @@ describe('AppComponent', () => {
       });
     }));
 
-    it('should not require when stable for fakeAsync for isolated test', fakeAsync(() => {
+    it('whenStable not required for fakeAsync for isolated test', fakeAsync(() => {
       fixture.componentInstance.click();
       expect(fixture.isStable()).toBe(true);
-      tick(1000);
+      tick(2000);
       expect(fixture.componentInstance.text).toBe('11');
     }));
     })
   
     describe('async', () => {
-      it('should use whenStable for shallow component test', async(() => {
+      it('whenStable to be used for shallow component test', async(() => {
         fixture.detectChanges(); 
   
         expect(fixture.isStable()).toBe(false);
@@ -74,7 +74,7 @@ describe('AppComponent', () => {
         });
       }));
 
-      it('should use whenStable with browser click', async(() => {
+      it('whenStable to be used with browser click', async(() => {
         fixture.detectChanges(); 
   
         const button = nativeElement.querySelector('div');
@@ -89,7 +89,7 @@ describe('AppComponent', () => {
     });
   
     describe('done', () => {
-      it('should use whenStable in shallow test with fixture OnInit', done => {
+      it('whenStable to be used in shallow test with fixture OnInit', done => {
         fixture.detectChanges();
   
         expect(fixture.isStable()).toBe(false);
@@ -100,7 +100,7 @@ describe('AppComponent', () => {
           done();
         });
       });
-      it('should use whenStable in shallow test with browser click', done => {
+      it('whenSatble to be used in shallow test with browser click', done => {
         expect(fixture.nativeElement.querySelector('p').textContent).toBe('');
   
         const button = fixture.nativeElement.querySelector('div');
